@@ -1,0 +1,14 @@
+name: Event
+version: 1.0
+main: org.example.event.event.event.Event
+api-version: "1.21"
+
+commands:
+  event:
+    description: Event System
+    usage: /event
+    aliases: [ev]
+
+permissions:
+  event.admin:
+    default: op
